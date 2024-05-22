@@ -1,0 +1,9 @@
+
+
+# Document files 
+*.docx
+
+# Modules
+node_modules/
+.idea/
+
