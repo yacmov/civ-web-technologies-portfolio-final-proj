@@ -1,5 +1,6 @@
 # Test folder
 test/*
+test*.html
 
 # Document files 
 *.docx

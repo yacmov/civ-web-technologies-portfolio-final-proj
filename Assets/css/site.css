@@ -554,44 +554,20 @@ video {
   --tw-contain-style:  ;
 }
 
-.mt-1 {
-  margin-top: 0.25rem;
+.absolute {
+  position: absolute;
 }
 
-.mt-10 {
-  margin-top: 2.5rem;
+.left-2 {
+  left: 0.5rem;
 }
 
-.mb-10 {
-  margin-bottom: 2.5rem;
-}
-
-.mb-20 {
-  margin-bottom: 5rem;
-}
-
-.mb-1 {
-  margin-bottom: 0.25rem;
-}
-
-.mb-16 {
-  margin-bottom: 4rem;
-}
-
-.mt-2 {
-  margin-top: 0.5rem;
+.top-0 {
+  top: 0px;
 }
 
 .mb-5 {
   margin-bottom: 1.25rem;
-}
-
-.mb-4 {
-  margin-bottom: 1rem;
-}
-
-.mt-auto {
-  margin-top: auto;
 }
 
 .flex {
@@ -606,148 +582,48 @@ video {
   display: none;
 }
 
-.h-52 {
-  height: 13rem;
-}
-
-.h-32 {
-  height: 8rem;
-}
-
-.h-28 {
-  height: 7rem;
-}
-
-.h-4 {
-  height: 1rem;
-}
-
-.h-44 {
-  height: 11rem;
-}
-
-.h-3 {
-  height: 0.75rem;
-}
-
-.h-7 {
-  height: 1.75rem;
-}
-
-.h-0 {
-  height: 0px;
-}
-
-.h-0\.5 {
-  height: 0.125rem;
+.h-12 {
+  height: 3rem;
 }
 
 .h-16 {
   height: 4rem;
 }
 
-.h-8 {
-  height: 2rem;
+.h-full {
+  height: 100%;
 }
 
-.min-h-screen {
-  min-height: 100vh;
-}
-
-.w-52 {
-  width: 13rem;
-}
-
-.w-32 {
-  width: 8rem;
-}
-
-.w-3 {
-  width: 0.75rem;
-}
-
-.w-2 {
-  width: 0.5rem;
-}
-
-.w-28 {
-  width: 7rem;
-}
-
-.w-44 {
-  width: 11rem;
-}
-
-.w-24 {
-  width: 6rem;
-}
-
-.w-1 {
-  width: 0.25rem;
+.w-12 {
+  width: 3rem;
 }
 
 .w-16 {
   width: 4rem;
 }
 
-.w-8 {
-  width: 2rem;
+.w-28 {
+  width: 7rem;
 }
 
-.w-36 {
-  width: 9rem;
-}
-
-.w-5 {
-  width: 1.25rem;
-}
-
-.w-4 {
-  width: 1rem;
+.w-full {
+  width: 100%;
 }
 
 .flex-row {
   flex-direction: row;
 }
 
-.flex-col {
-  flex-direction: column;
+.place-items-center {
+  place-items: center;
 }
 
-.flex-wrap {
-  flex-wrap: wrap;
-}
-
-.place-content-center {
-  place-content: center;
-}
-
-.items-center {
-  align-items: center;
-}
-
-.justify-center {
-  justify-content: center;
-}
-
-.justify-between {
-  justify-content: space-between;
+.items-end {
+  align-items: flex-end;
 }
 
 .justify-around {
   justify-content: space-around;
-}
-
-.gap-16 {
-  gap: 4rem;
-}
-
-.gap-4 {
-  gap: 1rem;
-}
-
-.rounded-full {
-  border-radius: 9999px;
 }
 
 .rounded-b-full {
@@ -755,9 +631,9 @@ video {
   border-bottom-left-radius: 9999px;
 }
 
-.bg-black {
+.bg-spinodal {
   --tw-bg-opacity: 1;
-  background-color: rgb(0 0 0 / var(--tw-bg-opacity));
+  background-color: rgb(202 219 237 / var(--tw-bg-opacity));
 }
 
 .bg-white {
@@ -765,59 +641,41 @@ video {
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
 
-.bg-gray-300 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(209 213 219 / var(--tw-bg-opacity));
+.p-20 {
+  padding: 5rem;
 }
 
-.bg-center {
-  background-position: center;
+.pb-20 {
+  padding-bottom: 5rem;
 }
 
-.p-8 {
-  padding: 2rem;
+.pl-10 {
+  padding-left: 2.5rem;
 }
 
-.py-8 {
-  padding-top: 2rem;
-  padding-bottom: 2rem;
+.pl-5 {
+  padding-left: 1.25rem;
 }
 
-.pt-12 {
-  padding-top: 3rem;
+.pt-20 {
+  padding-top: 5rem;
 }
 
-.text-left {
-  text-align: left;
+.pt-3 {
+  padding-top: 0.75rem;
+}
+
+.pt-5 {
+  padding-top: 1.25rem;
 }
 
 .text-center {
   text-align: center;
 }
 
-.text-lg {
-  font-size: 1.125rem;
-  line-height: 1.75rem;
-}
-
-.text-6xl {
-  font-size: 3.75rem;
-  line-height: 1;
-}
-
-.text-4xl {
-  font-size: 2.25rem;
-  line-height: 2.5rem;
-}
-
 .text-5xl {
   font-size: 3rem;
   line-height: 1;
-}
-
-.text-sm {
-  font-size: 0.875rem;
-  line-height: 1.25rem;
 }
 
 .text-xs {
@@ -829,8 +687,12 @@ video {
   text-transform: uppercase;
 }
 
-.shadow-2xl {
-  --tw-shadow: 0 25px 50px -12px rgb(0 0 0 / 0.25);
-  --tw-shadow-colored: 0 25px 50px -12px var(--tw-shadow-color);
-  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+.text-gray-300 {
+  --tw-text-opacity: 1;
+  color: rgb(209 213 219 / var(--tw-text-opacity));
+}
+
+.drop-shadow-lg {
+  --tw-drop-shadow: drop-shadow(0 10px 8px rgb(0 0 0 / 0.04)) drop-shadow(0 4px 3px rgb(0 0 0 / 0.1));
+  filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
 }
