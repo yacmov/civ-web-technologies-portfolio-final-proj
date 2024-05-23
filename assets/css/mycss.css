@@ -1,0 +1,38 @@
+.bg-pearlbush {
+        background-color: #EADDD7;
+}
+
+.bg-spindle {
+    background-color: #CADBED;
+}
+
+.bg-classicrose {
+    background-color: #FBD0D9;
+}
+
+.bg-berylgreen {
+    background-color: #D2E0B6;
+}
+.text-pearlbush {
+    color: #EADDD7;
+}
+
+.text-spindle {
+    color: #CADBED;
+}
+
+.text-classicrose {
+    color: #FBD0D9;
+}
+
+.text-berylgreen {
+    color: #D2E0B6;
+}
+
+.bg-index{
+    background-color: #CADBED;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    background-blend-mode:soft-light;
+}
