@@ -1,4 +1,5 @@
-
+# Test folder
+test/*
 
 # Document files 
 *.docx
@@ -9,3 +10,4 @@ node_modules/
 
 # .DS_Store
 .DS_Store
+
