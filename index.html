@@ -10,10 +10,11 @@
     <script src="./assets/js/script.js" defer></script>
 </head>
 
-<body id="scroll-container" class="bg-index grid place-items-center" background="./assets/img/index-bg.jpg">
+<body id="scroll-container" class="bg-index grid place-items-center w-full h-screen"
+    background="./assets/img/index-bg.jpg">
     <header>
         <button id="hamburger-button" class="cursor-pointer sm:hidden">
-            <img class="pl-5 pt-3 w-12 h-12 absolute top-0 left-2" src="./assets/img/hambuger-menu.png" alt="menu icon">
+            <img class="pl-5 pt-3 w-16 h-16 absolute top-0 left-2" src="./assets/img/hambuger-menu.png" alt="menu icon">
         </button>
         <h1
             class="hidden sm:flex sm:flex-row-reverse sm:justify-end sm:text-6xl sm:mt-3 sm:justify-items-center sm:ml-4 sm:mb-4">
@@ -21,7 +22,7 @@
                 Doesn't Matter</a>
             <img class="-m-4 mr-10 w-28 h-28 block" src="./assets/img/logo.png" alt="Ages Doesn't Matter Logo">
         </h1>
-        <img class="items-center w-28 h-28 block sm:hidden" src="./assets/img/logo.png" alt="Ages Doesn't Matter Logo">
+        <img class="w-44 h-44 -mt-20 block sm:hidden" src="./assets/img/logo.png" alt="Ages Doesn't Matter Logo">
         <nav>
             <ul class="hidden nav-links sm:block sm:flex space-x-8 text-xl" aria-label="main-navigation">
                 <li><a href="./index.html">Home</a></li>
@@ -40,27 +41,27 @@
             <label class="pl-10">Menu
             </label>
             <nav class="flex flex-col min-h-screen items0center py-8 aria-label='mobile">
-                <a href="#Home" class="text-black w-full text-left ml-20 text-3xl py-6 hover:opacity-90">HOME</a>
-                <a href="#Home" class="text-black w-full  ml-20 text-3xl py-6 hover:opacity-90">Contact Me</a>
-                <a href="#Home" class="text-black w-full  ml-20 text-3xl py-6 hover:opacity-90">About Me</a>
-                <a href="#Home" class="text-black w-full  ml-20 text-3xl py-6 hover:opacity-90">Résumé</a>
-                <a href="#Home" class="text-black w-full  ml-20 text-3xl py-6 hover:opacity-90">Projects</a>
-                <a href="#Home" class="text-black w-full  ml-20 pr-24 text-3xl py-6 hover:opacity-90">Sample
+                <a href="./index.html" class="text-black w-full text-left ml-20 text-3xl py-6 hover:opacity-90">HOME</a>
+                <a href="./contact.html" class="text-black w-full  ml-20 text-3xl py-6 hover:opacity-90">Contact Me</a>
+                <a href="./about.html" class="text-black w-full  ml-20 text-3xl py-6 hover:opacity-90">About Me</a>
+                <a href="./resume.html" class="text-black w-full  ml-20 text-3xl py-6 hover:opacity-90">Résumé</a>
+                <a href="./projects.html" class="text-black w-full  ml-20 text-3xl py-6 hover:opacity-90">Projects</a>
+                <a href="./mywork.html" class="text-black w-full  ml-20 pr-24 text-3xl py-6 hover:opacity-90">Sample
                     Projects</a>
             </nav>
         </section>
     </header>
-    <main class="maxw4xl mx-auto">
+    <main class="mx-auto">
         <section id="title"
             class="text-center flex flex-col-resvers justify-center sm:flex-row p-6 items-center gap-8 mb-12">
-            <h class="sm:mt-10 text-5xl font-bold bg-black bg-opacity-15">Welcome To <br class="sm:hidden"><br
+            <h class="sm:mt-10 text-4xl font-bold bg-black bg-opacity-15">Welcome To <br class="sm:hidden"><br
                     class="sm:hidden">Ages doesn't
-                <br><br><span class="pt-20 uppercase text-7xl sm:text-9xl sm:text-center">matter!</span>
+                <br><br><span class="pt-20 text-7xl uppercase sm:text-9xl sm:text-center">matter!</span>
             </h>
         </section>
 
     </main>
-    <footer class="bg-spinodal h-full w-full">
+    <footer class="bottom-0 bg-spinodal h-full w-full">
         <section class="flex flex-row justify-around items-end">
             <img class="h-16 w-16 rounded-b-full" src="./assets/img/logo.png" alt="Logo">
             <ul class="text-s">
