@@ -11,11 +11,18 @@
 
 <body id="scroll-container" class="bg-index grid place-items-center" background="./assets/img/index-bg.jpg">
     <header>
-        <h1 class="hidden"><a href="/">Ages Doesn't Matter</a></h1>
-        <img class="pl-5 pt-3 w-12 h-12 absolute top-0 left-2" src="./assets/img/hambuger-menu.png" alt="menu icon">
-        <img class=" w-28" src="./assets/img/logo.png" alt="Ages Doesn't Matter Logo">
+        <button id="hamburger-button" class="cursor-pointer sm:hidden">
+            <img class="pl-5 pt-3 w-12 h-12 absolute top-0 left-2" src="./assets/img/hambuger-menu.png" alt="menu icon">
+        </button>
+        <h1
+            class="hidden sm:flex sm:flex-row-reverse sm:justify-end sm:text-6xl sm:mt-3 sm:justify-items-center sm:ml-4 sm:mb-4">
+            <a href="/">Ages
+                Doesn't Matter</a>
+            <img class="-m-4 mr-10 w-28 h-28 block" src="./assets/img/logo.png" alt="Ages Doesn't Matter Logo">
+        </h1>
+        <img class="-m-4 w-36 h-28 block sm:hidden" src="./assets/img/logo.png" alt="Ages Doesn't Matter Logo">
         <nav>
-            <ul class="hidden nav-links">
+            <ul class="hidden nav-links sm:block sm:flex space-x-8 text-xl" aria-label="main-navigation">
                 <li><a href="./index.html">Home</a></li>
                 <li><a href="./contact.html">Contact Me</a></li>
                 <li><a href="./about.html">About Me</a></li>
@@ -23,12 +30,28 @@
                 <li><a href="./projects.html">Projects</a></li>
                 <li><a href="./mywork.html">Sample Projects</a></li>
             </ul>
+            <section id="mobile-menu"
+                class="absolute top-0 -left-1 bg-pearlbush text-5xl flex flex-col justify-center hidden">
+                <button class="text-8xl self-end px-6 text-white">&times;
+                </button>
+                <nav class="flex flex-col min-h-screen items0center py-8 aria-label='mobile">
+                    <a href="#Home" class="text-black w-full text-left ml-20 text-3xl py-6 hover:opacity-90">HOME</a>
+                    <a href="#Home" class="text-black w-full  ml-20 text-3xl py-6 hover:opacity-90">Contact Me</a>
+                    <a href="#Home" class="text-black w-full  ml-20 text-3xl py-6 hover:opacity-90">About Me</a>
+                    <a href="#Home" class="text-black w-full  ml-20 text-3xl py-6 hover:opacity-90">Résumé</a>
+                    <a href="#Home" class="text-black w-full  ml-20 text-3xl py-6 hover:opacity-90">Projects</a>
+                    <a href="#Home" class="text-black w-full  ml-20 pr-24 text-3xl py-6 hover:opacity-90">Sample
+                        Projects</a>
+                </nav>
+            </section>
         </nav>
     </header>
-    <main>
-        <h2 class="pl-10 text-5xl pt-20 pb-20 drop-shadow-lg text-shadow">Welcome To <br><br>Ages doesn't <br><br><span
-                class="pt-20 uppercase">matter!</span>
-        </h2>
+    <main class="maxw4xl mx-auto">
+        <section id="title" class="flex flex-col-resvers justify-center sm:flex-row p-6 items-center gap-8 mb-12">
+            <h class="sm:mt-10 text-5xl">Welcome To <br class="sm:hidden"><br class="sm:hidden">Ages doesn't
+                <br><br><span class="pt-20 uppercase sm:text-9xl sm:text-center">matter!</span>
+            </h>
+        </section>
     </main>
     <footer class="bg-spinodal h-full w-full">
         <section class="flex flex-row justify-around items-end">

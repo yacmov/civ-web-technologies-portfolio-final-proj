@@ -1,0 +1,18 @@
+{
+    "name": "Ages-Doesn't-Matter",
+    "version": "1.0.0",
+    "description": "C-WT-AT3-PROJ: Web Technologies - Final Project",
+    "main": "tailwind.config-js",
+    "scripts": {
+        "tailwind": "npx tailwindcss -i ./src/input.css -o ./assets/css/site.css --watch"
+    },
+    "keywords": [],
+    "author": "Cedric",
+    "license": "ISC",
+    "directories": {
+        "doc": "docs"
+    },
+    "devDependencies": {
+        "prettier": "^3.2.5"
+    }
+}
