@@ -24,7 +24,7 @@
         </h1>
         <img class="w-44 h-44 -mt-6 block sm:hidden" src="./assets/img/logo.png" alt="Ages Doesn't Matter Logo">
         <nav>
-            <ul class="hidden nav-links sm:block sm:flex space-x-8 text-xl" aria-label="main-navigation">
+            <ul class="hidden nav-links sm:flex space-x-8 text-xl" aria-label="main-navigation">
                 <li><a href="./index.html">Home</a></li>
                 <li><a href="./contact.html">Contact Me</a></li>
                 <li><a href="./about.html">About Me</a></li>
@@ -56,65 +56,45 @@
         </section>
     </header>
     <main class="mx-auto bg-white w-full h-full">
-        djaljdf
-        djaljdf
-
-        djaljdfdjaljdf
-        djaljdfdjaljdf
-        djaljdfdjaljdf
-        djaljdfdjaljdf
-        djaljdfdjaljdf
-        djaljdfdjaljdf
-        djaljdfdjaljdf
-        djaljdfdjaljdf
-        djaljdfdjaljdf
-        djaljdfdjaljdf
-        djaljdfdjaljdf
-        djaljdfdjaljdf
-        djaljdfdjaljdf
-        djaljdfdjaljdf
-        djaljdfdjaljdf
-        djaljdfdjaljdf<br>
-        djaljdfdjaljdf<br>
-        djaljdfdjaljdf<br>
-        djaljdfdjaljdf<br>
-        djaljdfdjaljdf<br>
-        djaljdfdjaljdf<br>
-        djaljdfdjaljdf<br>
-        djaljdfdjaljdf<br>
-        djaljdfdjaljdf<br>
-        djaljdfdjaljdf<br>
-        djaljdfdjaljdf<br>
-        djaljdfdjaljdf<br>
-        djaljdfdjaljdf<br>
-        djaljdfdjaljdf<br>
-        djaljdfdjaljdf<br>
-        djaljdfdjaljdf<br>
-        djaljdfdjaljdf<br>
-        djaljdfdjaljdf<br>
-        djaljdfdjaljdf<br>djaljdfdjaljdfdjaljdf
-        djaljdfdjaljdf<br>djaljdfdjaljdfdjaljdf
-        djaljdfdjaljdf<br>djaljdfdjaljdfdjaljdf
-        djaljdfdjaljdf<br>djaljdfdjaljdfdjaljdf
-        djaljdfdjaljdf<br>djaljdfdjaljdfdjaljdf
-        djaljdfdjaljdf<br>djaljdfdjaljdfdjaljdf
-        djaljdfdjaljdf<br>djaljdfdjaljdfdjaljdf
-        djaljdfdjaljdf<br>djaljdfdjaljdfdjaljdf
-        djaljdfdjaljdf<br>djaljdfdjaljdfdjaljdf
-        djaljdfdjaljdf<br>djaljdfdjaljdfdjaljdf
-        djaljdfdjaljdf<br>djaljdfdjaljdfdjaljdf
-        djaljdfdjaljdf<br>djaljdfdjaljdfdjaljdf
-        djaljdfdjaljdf<br>djaljdfdjaljdfdjaljdf
-        djaljdfdjaljdf<br>djaljdfdjaljdfdjaljdf
-        djaljdfdjaljdf<br>djaljdfdjaljdfdjaljdf
-        djaljdfdjaljdf<br>djaljdfdjaljdfdjaljdf
-        djaljdfdjaljdf<br>djaljdfdjaljdfdjaljdf
-        djaljdfdjaljdf<br>djaljdfdjaljdfdjaljdf
-        djaljdfdjaljdf<br>djaljdfdjaljdfdjaljdf
-        djaljdfdjaljdf<br>
-        djaljdfdjaljdf<br>
-        djaljdfdjaljdf<br>
-        djaljdfdjaljdf<br>
+        <section>
+            <h2 class="m-5 text-2xl font-bold">Ready to Bring Your Vision to Life?</h2>
+            <p class="m-5 text-sm">Do you have a vision for a project that's just begging to be brought to life? <span
+                    class="font-bold"> Drop me a line
+                    and let's chat about how I can translate your ideas into stunning visuals.</span> Whether it's a
+                website design that wows
+                your audience or an illustration that captures their hearts, I'm here to turn your vision into reality.
+            </p>
+        </section>
+        <form class="m-5" action="" id="contact-form" method="post">
+            <!-- Name, email, age, current role-->
+            <fieldset class="border-none border-b-4 border-black">
+                <!-- <legend>Required information</legend> -->
+                <label class="grid mb-5 font-bold" for="dropdown"> Enquiry Type *
+                    <select class="font-normal border-b-2 border-black" id="dropdown" name="dropdown">
+                        <option value="0">(select one)</option>
+                        <option value="1">General Enquiry</option>
+                        <option value="2">Bug Report</option>
+                        <option value="3">Feedback</option>
+                        <option value="4">Others</option>
+                    </select>
+                </label>
+                <label class="grid mb-5 font-bold border-b-2 border-black" for="first-name" id="first-name-label">First
+                    Name:* <input class="font-normal" placeholder="first name" type="text" id="first-name"
+                        name="first-name" pattern="^[a-zA-Z]+(\s*[a-zA-Z]+)*$" required></label>
+                <label class="grid mb-5 font-bold border-b-2 border-black" for="last-name" id="last-name-label">Last
+                    Name:* <input class="font-normal" placeholder="last name" type="text" id="last-name"
+                        name="last-name" pattern="^[a-zA-Z]+(\s*[a-zA-Z]+)*$" required></label>
+                <label class="grid mb-5 font-bold border-b-2 border-black" for="email" id="email-label">Email:* <input
+                        class="font-normal" placeholder="email@domain.com" type="email" id="email" name="email"
+                        pattern="/^[\w-\.]+@([\w-]+\.)+[\w-]{2,4}$/" required></label>
+                <label class="font-bold grid" for="message"><span class="border-none">Message</span>
+                    <textarea class="border-b-2 border-black mb-5" name="message" id="message" cols="30" rows="4"
+                        placeholder="add your message"></textarea>
+                </label>
+            </fieldset>
+            <button class="cursor-pointer w-full bg-spinodal p-4 rounded-xl"><input type="submit" value="Submit"
+                    id="submit"></button>
+        </form>
     </main>
     <footer class="bottom-0 bg-spinodal h-full w-full">
         <section class="flex flex-row justify-around items-end">
