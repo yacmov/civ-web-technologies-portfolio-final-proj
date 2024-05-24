@@ -7,7 +7,7 @@
         "tailwind": "npx tailwindcss -i ./src/input.css -o ./assets/css/site.css --watch"
     },
     "keywords": [],
-    "author": "Cedric",
+    "author": "Cedric Ko",
     "license": "ISC",
     "directories": {
         "doc": "docs"
