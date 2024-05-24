@@ -10,7 +10,7 @@
     <script src="./assets/js/script.js" defer></script>
 </head>
 
-<body id="scroll-container" class="bg-index grid place-items-center w-full h-screen"
+<body id="scroll-container" class="bg-index grid place-items-center w-full h-screen min-w-96"
     background="./assets/img/index-bg.jpg">
     <header>
         <button id="hamburger-button" class="cursor-pointer sm:hidden">
@@ -50,22 +50,22 @@
                     Projects</a>
             </nav>
         </section>
-        <section>
+        <section class="sm:hidden">
             <button class="font-bold text-2xl -ml-20">←back</button>
             <h2 class="text-4xl font-bold -ml-20 mb-5">Contact me</p>
         </section>
     </header>
     <main class="mx-auto bg-white w-full h-full">
-        <section>
-            <h2 class="m-5 text-2xl font-bold">Ready to Bring Your Vision to Life?</h2>
-            <p class="m-5 text-sm">Do you have a vision for a project that's just begging to be brought to life? <span
-                    class="font-bold"> Drop me a line
+        <section class="sm:mx-auto sm:w-8/12 sm:align-middle">
+            <h2 class="m-5 sm:mt-5 text-2xl font-bold sm:m-0 sm:mb-5">Ready to Bring Your Vision to Life?</h2>
+            <p class="m-5 text-sm sm:m-0 sm:mb-5">Do you have a vision for a project that's just begging to be brought
+                to life? <span class="font-bold"> Drop me a line
                     and let's chat about how I can translate your ideas into stunning visuals.</span> Whether it's a
                 website design that wows
                 your audience or an illustration that captures their hearts, I'm here to turn your vision into reality.
             </p>
         </section>
-        <form class="m-5" action="" id="contact-form" method="post">
+        <form class="sm:mx-auto m-5 sm:w-8/12 sm:align-middle" action="" id="contact-form" method="post">
             <!-- Name, email, age, current role-->
             <fieldset class="border-none border-b-4 border-black">
                 <!-- <legend>Required information</legend> -->
