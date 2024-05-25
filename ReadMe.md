@@ -40,7 +40,7 @@ The Purpose of this project is to demonstrate my ability to create a well-struct
 | -------------------------- | ------------- | ------- |
 | black                      | 0, 0, 0       | #000000 |
 | white                      | 255, 255, 255 | #FFFFFF |
-| Pearl Bush (Brown 200)     | 234, 221, 215 | #EADDD7 |
+| gray                       | 128, 128, 128 | #808080 |
 | Spindle (Azure 200)        | 202, 219, 237 | #CADBED |
 | Classic Rose (Cerise 200)  | 251, 208, 217 | #FBD0D9 |
 | Beryl Green (Cucumber 200) | 210, 224, 182 | #D2E0B6 |
