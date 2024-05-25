@@ -31,6 +31,47 @@
 
 .bg-index{
     background-color: #CADBED;
+    background-image: url(../img/background/index-bg.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    background-blend-mode:soft-light;
+}
+.bg-contact{
+    background-color: #CADBED;
+    background-image: url(../img/background/contact-bg.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    background-blend-mode:soft-light;
+}
+.bg-about{
+    background-color: #CADBED;
+    background-image: url(../img/background/aboutme-bg.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    background-blend-mode:soft-light;
+}
+.bg-resume{
+    background-color: #CADBED;
+    background-image: url(../img/background/resume-bg.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    background-blend-mode:soft-light;
+}
+.bg-projects{
+    background-color: #CADBED;
+    background-image: url(../img/background/project-bg.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    background-blend-mode:soft-light;
+}
+.bg-mywork{
+    background-color: #CADBED;
+    background-image: url(../img/background/sample-bg.jpg);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: 100% 100%;
