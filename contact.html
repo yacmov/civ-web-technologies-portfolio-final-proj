@@ -16,12 +16,12 @@
             <img class="pl-5 pt-3 w-16 h-16 absolute top-0 left-2" src="./assets/img/logo/hambuger-menu.png"
                 alt="menu icon">
         </button>
-        <h1
+        <h2
             class="hidden sm:flex sm:flex-row-reverse sm:justify-end sm:text-6xl sm:mt-3 sm:justify-items-center sm:ml-4 sm:mb-4">
             <a href="/">Ages
                 Doesn't Matter</a>
             <img class="-m-4 mr-10 w-28 h-28 block" src="./assets/img/logo/logo.png" alt="Ages Doesn't Matter Logo">
-        </h1>
+        </h2>
         <img class="w-44 h-44 -mt-6 block sm:hidden" src="./assets/img/logo/logo.png" alt="Ages Doesn't Matter Logo">
         <nav>
             <ul class="hidden nav-links sm:flex space-x-8 text-xl mb-2" aria-label="main-navigation">
@@ -35,11 +35,10 @@
         </nav>
         <section id="mobile-menu"
             class="absolute top-0 left-0 w-full bg-pearlbush text-5xl flex-col justify-center origin-left animate-open-menu hidden">
-            </label>
             <button class="text-8xl self-end px-6 text-black">&times;
             </button>
-            <label class="pl-10">Menu
-            </label>
+            <h2 class="pl-10">Menu
+            </h2>
             <nav class="flex flex-col min-h-screen items0center py-8 aria-label='mobile">
                 <a href="./index.html" class="text-black w-full text-left ml-20 text-3xl py-6 hover:opacity-90">HOME</a>
                 <a href="./contact.html" class="text-black w-full  ml-20 text-3xl py-6 hover:opacity-90">Contact Me</a>
@@ -52,7 +51,7 @@
         </section>
         <section class="sm:hidden">
             <button class="font-bold text-2xl -ml-20"><a href="javascript:history.back()">←back</a></button>
-            <h2 class="text-4xl font-bold -ml-20 mb-5">Contact me</p>
+            <h2 class="text-4xl font-bold -ml-20 mb-5">Contact me</h2>
         </section>
     </header>
     <main class="mx-auto bg-white w-full h-full">
@@ -65,7 +64,7 @@
                 your audience or an illustration that captures their hearts, I'm here to turn your vision into reality.
             </p>
         </section>
-        <form class="sm:mx-auto m-5 sm:w-8/12 sm:align-middle" action="" id="contact-form" method="post">
+        <form class="sm:mx-auto m-5 sm:w-8/12 sm:align-middle" id="contact-form" method="post">
             <!-- Name, email, age, current role-->
             <fieldset class="border-none border-b-4 border-black">
                 <!-- <legend>Required information</legend> -->
@@ -96,13 +95,13 @@
                 class="text-center mb-2 p-2 font-bold border-4 hidden border-berylgreen rounded-xl">
                 <h3>Test Sending Success</h3>
             </section>
-            <button class="cursor-pointer w-full bg-spinodal p-4 rounded-xl"><input
-                    class="cursor-pointer font-bold text-2xl hover:text-3xl" type="submit" value="Submit"
-                    id="submit"></button>
+            <button class="cursor-pointer w-full bg-spinodal p-4 rounded-xl text-2xl font-bold" type="submit"
+                id="submit" value="Submit">Submit</button>
         </form>
     </main>
     <footer class="bottom-0 bg-spinodal h-full w-full">
         <section class="flex flex-row justify-around items-start">
+            <h3 class="hidden">logo and useful links</h3>
             <img class="h-16 w-16 rounded-b-full sm:mt-2" src="./assets/img/logo/logo.png" alt="Logo">
             <ul class="text-s mt-2">
                 <li class="text-xs "><a href="https://www.northmetrotafe.wa.edu.au">North Metro TAFE</a></li>
@@ -110,6 +109,7 @@
             </ul>
         </section>
         <section>
+            <h3 class="hidden">Copyright</h3>
             <p class="mt-1 text-center text-xs mb-5"><a href="./pages/copyright/index.html">© Copyright 2024</a>
                 Sukhwan
                 Ko.
